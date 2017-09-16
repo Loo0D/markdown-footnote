@@ -1,7 +1,7 @@
 {
   "name": "markdown-footnote",
   "main": "./lib/markdown-footnote",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Inserts a Pandoc compatible Markdown footnote. Uses a 'random' md5 hash to name footnotes",
   "keywords": [
     "md5",
