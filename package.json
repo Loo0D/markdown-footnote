@@ -1,0 +1,20 @@
+{
+  "name": "markdown-footnote",
+  "main": "./lib/markdown-footnote",
+  "version": "0.1.0",
+  "description": "Inserts a Pandoc compatible Markdown footnote. Uses a 'random' md5 hash to name footnotes",
+  "keywords": [
+    "md5",
+    "markdown",
+    "pandoc",
+    "footnote"
+  ],
+  "repository": "https://github.com/granite-zero/markdown-footnote",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "md5": "2.2.1"
+  }
+}
