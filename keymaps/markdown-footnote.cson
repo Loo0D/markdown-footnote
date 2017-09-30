@@ -10,3 +10,5 @@
 'atom-workspace':
   'ctrl-shift-f': 'markdown-footnote:add'
   'ctrl-shift-b': 'markdown-footnote:back'
+  'cmd-shift-f' : 'markdown-footnote:add'
+  'cmd-shift-b' : 'markdown-footnote:back'
