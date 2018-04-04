@@ -1,8 +1,8 @@
 # See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
 'context-menu':
   'atom-text-editor': [
-  #    {'label': 'Insert Footnote','command': 'markdown-footnote:add'}
-  #    {'label': 'Return to Footnote Marker', 'command': 'markdown-footnote:back'}
+      {'label': 'Insert Footnote','command': 'markdown-footnote:add'}
+      {'label': 'Return to Footnote Marker', 'command': 'markdown-footnote:back'}
   ]
 'menu': [
   {

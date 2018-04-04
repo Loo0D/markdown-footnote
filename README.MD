@@ -8,10 +8,4 @@ After inserting the footnote, `ctrl-shift-b` / `cmd-shift-b` places the cursor b
 
 To remove the hassle of having to track footnote numbering across the file or between collaborators, each footnote uses a "unique" 4-character alphanumeric reference, i.e. `[^79d6]`. When rendered by Pandoc, these will become sequentially numbered as normal.
 
-The "unique" references are generated from an MD5 hash of file contents plus a random number, or a "salt". 4 characters could, in theory, lead to collisions but this is highly unlikely in normal use.
-
-## Known Issues
-
-(Pull requests welcome)
-
-When using the context menu to insert the footnote, although the cursor is placed correctly at the end of the document, the editor window appears to lose focus. Typing text immediately after such insertion does not work, user needs to click inside the document, after which entering text works as normal. This issue does not occur with keyboard shortcuts or menu bar (`Packages -> Markdown Footnote`) commands. For this reason context menu items are commented out in `menus/markdown-footnote.cson` file.
+The "unique" references are generated from an MD5 hash of two random numbers. 4 characters could, in theory, lead to collisions but this is highly unlikely in normal use.
